@@ -438,7 +438,7 @@
         <div class="col-lg-6">
           <h3 class="resume-title">Professional Experience</h3>
           <div class="resume-item">
-            <h4>Freelance Backend Engineer</h4>
+            <h4>Backend Engineer</h4>
             <h5>2021 - Present</h5>
             <p><em>Travella, NG</em></p>
             <p>
@@ -451,7 +451,7 @@
             </p>
           </div>
           <div class="resume-item">
-            <h4>Lead Software Developer</h4>
+            <h4>Founder & Lead Software Developer</h4>
             <h5>2020 - Present</h5>
             <p><em>Veehue Labs, NG</em></p>
             <p>
@@ -678,7 +678,7 @@
         </div>
       </div>
 
-      <form action="forms/contact.php" method="post" role="form" class="php-email-form mt-4">
+      <form action="/" method="post" role="form" class="php-email-form mt-4">
         <div class="form-row">
           <div class="col-md-6 form-group">
             <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:5" data-msg="Please enter your name" />
@@ -699,10 +699,12 @@
         </div>
         <div class="mb-3">
           <div class="loading">Loading</div>
-          <div class="error-message"></div>
-          <div class="sent-message">Your message has been sent. Thank you!</div>
+          <!-- <div class="error-message"></div> -->
+          <div class="sent-message"></div>
         </div>
-        <div class="text-center"><button type="submit">Send Message</button></div>
+        <div id="submit" class="text-center"><button type="submit">Send Message</button></div>
+
+    
       </form>
 
     </div>
@@ -731,6 +733,53 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 
+
+  <!-- form submission -->
+      <script>
+          submit = document.querySelector("#submit")
+          inputs = document.querySelectorAll("input")
+          message = document.querySelector("textarea")
+          
+          //submit = document.querySelector("#submit")
+          submit.onclick = function(){
+            name = inputs[0].value
+            email = inputs[1].value
+            subject = inputs[2].value
+            user_message = message.value
+            //alert("you just cliked that button")
+            for (let i = 0; i < inputs.length; i++){
+                if(inputs[i].value.length == 0 || message.value.length < 15){
+               break
+              }else{
+               send(name, email, subject, user_message)
+               break
+              }
+            }
+            
+          }
+          async function send(name, email, subject, message){
+             var response = await fetch(" https://samperfect.herokuapp.com/api/v1/submit", {
+                method: "POST",
+                body: JSON.stringify({
+                  name: name,
+                  email: email,
+                  subject: subject,
+                  message: message
+                }),  
+                headers: {
+                  'Content-Type': 'application/json',
+                },
+              })
+            //getting the response data
+             var data = await response.json()
+             if (response.status == 200){
+               var this_form = $(document);
+                this_form.find('.loading').slideUp();
+                this_form.find('.sent-message').slideDown().html(data.message)
+               submit.style.display = "none"
+             }
+          }
+        </script>
 </body>
 
 </html>
