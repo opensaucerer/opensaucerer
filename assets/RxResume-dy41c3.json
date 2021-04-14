@@ -1,0 +1,430 @@
+{
+	"awards": {
+		"heading": "",
+		"items": [
+			{
+				"awarder": "Google",
+				"date": "2019-04-01",
+				"id": "6f857f2b-6312-4a0d-907d-2e17991954eb",
+				"summary": "",
+				"title": "International Flutter Hackathon",
+				"isVisible": false
+			},
+			{
+				"awarder": "Venturesity",
+				"date": "2016-06-01",
+				"id": "f6efa3f9-9741-4e36-a538-ba0d9779bc61",
+				"summary": "",
+				"title": "Venturesity Banyan Hack",
+				"isVisible": false
+			},
+			{
+				"awarder": "Govt. of India",
+				"date": "2017-04-01",
+				"id": "89c0171a-eae9-403e-9f4c-a757fb535c2b",
+				"summary": "",
+				"title": "Smart India Hackathon",
+				"isVisible": false
+			}
+		],
+		"visible": true
+	},
+	"certifications": {
+		"heading": "Certifications",
+		"items": [
+			{
+				"date": "2021-02-01",
+				"id": "d2ec12bc-7876-46bc-afd4-11ae06faf3bd",
+				"issuer": "Travella",
+				"summary": "",
+				"title": "API Engineer"
+			},
+			{
+				"date": "2018-09-01",
+				"id": "f8312288-53ae-4504-a768-4b67aea95926",
+				"issuer": "FreeCodeCamp",
+				"summary": "",
+				"title": "Web Developer"
+			},
+			{
+				"date": "2014-04-01",
+				"id": "11107df6-5f3c-49ae-bcd4-62b8baa181a1",
+				"issuer": "Cisco Systems",
+				"summary": "",
+				"title": "DCUCI 642-999",
+				"isVisible": false
+			}
+		],
+		"visible": true
+	},
+	"education": {
+		"heading": "Education",
+		"items": [
+			{
+				"degree": "Masters",
+				"endDate": "2023-09-01",
+				"field": "Physics",
+				"gpa": "4.57",
+				"id": "c42e2a5a-3f0d-497e-838b-ac2019dcf045",
+				"institution": "Federal University of Technology Akure, NG",
+				"startDate": "2017-11-01",
+				"summary": "Currently studying applied physics in the area of energy and electronics. With more focus on combining software with hardware to solve energy-related solutions."
+			},
+			{
+				"degree": "O'Level",
+				"endDate": "2016-04-23",
+				"field": "Science",
+				"gpa": "7Bs, 2Cs",
+				"id": "278490a2-c327-4e83-8be8-adf913a9b36c",
+				"institution": "Success For All High School, NG",
+				"startDate": "2013-09-02",
+				"summary": "Completed every necessary requirement for the 0'level degree certificate in accordance with WAEC's (West African Examination Council) requirements. Studied courses included Mathematics, English, Physics, Chemistry, Further Mathematics..."
+			}
+		],
+		"visible": true
+	},
+	"hobbies": {
+		"heading": "Hobbies",
+		"items": [
+			{
+				"id": "788dcf5a-78ca-4866-8397-c7a29073d9a1",
+				"name": "Programing and Development"
+			},
+			{
+				"id": "e3523371-f50c-4348-8c5e-35fe84c0006d",
+				"name": "Web Surfing"
+			},
+			{
+				"id": "92c35e3b-6cd7-4cea-b505-61347ec61b68",
+				"name": "Gaming"
+			},
+			{
+				"id": "d36f2089-93a9-4f30-a425-3dd81c6b89df",
+				"name": "Studying"
+			},
+			{
+				"id": "d1da41a9-ae83-48fb-8047-d45ebd869a69",
+				"name": "Movies and Series"
+			},
+			{
+				"name": "Outings",
+				"id": "7aec9ddb-6302-4257-a38a-396fe4822458"
+			}
+		],
+		"visible": true
+	},
+	"languages": {
+		"heading": "Languages",
+		"items": [
+			{
+				"fluency": "Very Fluent",
+				"id": "78d8cf32-84c7-431d-969b-fdf277968026",
+				"name": "English"
+			},
+			{
+				"fluency": "Native Tongue",
+				"id": "9e0bd5ed-b88d-4046-8fb9-ecba54d29924",
+				"name": "Tamil",
+				"isVisible": false
+			},
+			{
+				"fluency": "Native Tongue",
+				"id": "cb895aa9-c485-4bf3-a9e3-08e8f219451a",
+				"name": "Kannada",
+				"isVisible": false
+			},
+			{
+				"fluency": "Conversational",
+				"id": "8fff60fc-0cd6-47e2-b64f-fb249d1af0d1",
+				"name": "Yoruba"
+			}
+		],
+		"visible": true
+	},
+	"metadata": {
+		"colors": {
+			"background": "\t#B0C4DE",
+			"primary": "#2196F3",
+			"text": "#212121"
+		},
+		"font": "Rubik",
+		"fontSize": "11",
+		"language": "en",
+		"layout": {
+			"castform": [
+				[
+					"awards",
+					"certifications",
+					"languages",
+					"hobbies"
+				],
+				[
+					"objective",
+					"work",
+					"education",
+					"skills",
+					"projects",
+					"references"
+				]
+			],
+			"celebi": [
+				[
+					"awards",
+					"certifications",
+					"languages",
+					"hobbies"
+				],
+				[
+					"objective",
+					"work",
+					"education",
+					"skills",
+					"projects",
+					"references"
+				]
+			],
+			"gengar": [
+				[
+					"objective",
+					"skills"
+				],
+				[
+					"awards",
+					"certifications",
+					"languages",
+					"references",
+					"hobbies"
+				],
+				[
+					"work",
+					"education",
+					"projects"
+				]
+			],
+			"glalie": [
+				[
+					"awards",
+					"certifications",
+					"hobbies"
+				],
+				[
+					"objective",
+					"work",
+					"education",
+					"skills",
+					"projects",
+					"languages",
+					"references"
+				]
+			],
+			"onyx": [
+				[
+					"objective",
+					"work",
+					"education",
+					"projects"
+				],
+				[
+					"hobbies",
+					"languages",
+					"awards",
+					"certifications"
+				],
+				[
+					"skills",
+					"references"
+				]
+			],
+			"pikachu": [
+				[
+					"skills",
+					"languages",
+					"hobbies",
+					"awards",
+					"certifications"
+				],
+				[
+					"work",
+					"education",
+					"projects",
+					"references"
+				]
+			]
+		},
+		"template": "gengar"
+	},
+	"objective": {
+		"body": "I am a software engineer with 2+ years of experience in both backend and frontend software design using Python, NodeJS, Javascript, CSS, HTML, and other related technologies.\n\nAs a frontend and backend software engineer, I know the workings of the web and can, with this knowledge, create intuitive UIs backed with remarkable user experiences. I'm also able to develop backend servers for both web, mobile, and desktop applications that all communicate with each other through powerful APIs built on the RESTful API development architecture.",
+		"heading": "About & Objectives",
+		"visible": true
+	},
+	"preview": "https://images.unsplash.com/photo-1594483672645-895b77326094?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=600&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=80&w=400",
+	"profile": {
+		"address": {
+			"city": "Akure",
+			"line1": "Apatapiti, FUTA SOUTH GATE",
+			"line2": "Ondo State",
+			"pincode": "430252"
+		},
+		"birthDate": "2001-02-27",
+		"email": "lovedayperfection1@gmail.com",
+		"firstName": "Perfection",
+		"heading": "Profile",
+		"lastName": "Loveday",
+		"phone": "+234 807 0718 502",
+		"photograph": "https://firebasestorage.googleapis.com/v0/b/rx-resume.appspot.com/o/users%2FkCPywPeUAahpFkKhh7seYqCKebO2%2Fphotographs%2Fdy41c3?alt=media&token=b56eea3b-5032-4b26-8e1f-9cab94de0029",
+		"subtitle": "Software Engineer",
+		"website": "https://samperfect.netlify.app"
+	},
+	"projects": {
+		"heading": "",
+		"items": [
+			{
+				"date": "2020-07-01",
+				"id": "c768dcca-90f5-4242-a608-6759b4f667fb",
+				"link": "https://github.com/Samperfect/stori-share",
+				"summary": "A social network built with Flask. StoriShare allows each user to independently publish stories, follow each other, like stories, and send messages.",
+				"title": "StoriShare",
+				"endDate": "2020-12-30",
+				"isVisible": false
+			},
+			{
+				"date": "2020-04-01",
+				"id": "6ca600b1-c21f-4d7b-8431-f7144d537dd3",
+				"link": "https://github.com/Samperfect/Website-Vulnerability-Scanner-Flask",
+				"summary": "A Web Application Vulnerability Scanner built using Python on top of the Flask web framework. Check the Readme for more information",
+				"title": "Website Vulnerability Scanner",
+				"endDate": "2020-04-23",
+				"isVisible": false
+			}
+		],
+		"visible": true
+	},
+	"public": true,
+	"references": {
+		"heading": "References",
+		"items": [
+			{
+				"email": "",
+				"id": "168339fd-3c4b-4f2f-bd3a-ef184be81700",
+				"name": "Moses Adebayo",
+				"phone": "+234 811 834 1190",
+				"position": "CEO at Travella",
+				"summary": ""
+			},
+			{
+				"email": "elanmusk@nottesla.com",
+				"id": "350465b9-9989-43cc-b97e-4115b8980304",
+				"name": "Elangovan Musk",
+				"phone": "+91 93893 34353",
+				"position": "CEO at Newton Motors",
+				"summary": "",
+				"isVisible": false
+			},
+			{
+				"email": "l.beasley@carsonlogistics.com",
+				"id": "94e3447b-0a78-4fb7-b14d-591982d35320",
+				"name": "Lorraine Beasley",
+				"phone": "+1 661-808-4188",
+				"position": "Head of HR, Carson Logistics",
+				"summary": "",
+				"isVisible": false
+			}
+		],
+		"visible": true
+	},
+	"skills": {
+		"heading": "Skills",
+		"items": [
+			{
+				"id": "54e5bceb-d0e9-4f04-98d1-48a34f7cf920",
+				"level": "",
+				"name": "Frontend Development"
+			},
+			{
+				"id": "f0274f62-2252-4cc0-bf12-9e1070942c50",
+				"level": "      ",
+				"name": "Backend Engineering"
+			},
+			{
+				"id": "689e2852-df1b-4d41-bda8-c41c88196264",
+				"level": "",
+				"name": "API Development"
+			},
+			{
+				"id": "3a4f73b1-50c1-4a85-a4b0-2a55dfe5053a",
+				"level": "",
+				"name": "Frontend and Backend Optimization"
+			},
+			{
+				"id": "08d6c739-1465-41f7-8825-b8d94faa38d6",
+				"level": "  ",
+				"name": "Database Management"
+			},
+			{
+				"id": "261b8fc3-aeec-4347-88a8-bcacb1a17aa3",
+				"level": "",
+				"name": "Plugins and Extensions Development"
+			}
+		],
+		"visible": true
+	},
+	"social": {
+		"heading": "Social Profiles",
+		"items": [
+			{
+				"id": "a72107fa-a4a5-407d-9e85-39bdb9c0b11a",
+				"network": "Twitter",
+				"url": "https://twitter.com/samperfectinc",
+				"username": "samperfect"
+			},
+			{
+				"id": "a832b37d-f11d-4a80-8b4d-24796e571b17",
+				"network": "GitHub",
+				"url": "https://github.com/samperfect",
+				"username": "Perfection"
+			},
+			{
+				"id": "1dd46fdd-b3a3-4786-89ce-2e77c0823aba",
+				"network": "LinkedIn",
+				"url": "https://www.linkedin.com/in/samperfect",
+				"username": "Perfection"
+			}
+		],
+		"visible": true
+	},
+	"work": {
+		"heading": "Work Experience",
+		"items": [
+			{
+				"company": "Travella, NG",
+				"endDate": "2021-03-23",
+				"id": "d7c64937-0cb9-41b1-a3a6-0679c882fe63",
+				"position": "Backend Engineer",
+				"startDate": "2021-02-01",
+				"summary": "- Oversaw the design and development of the API that was needed to develop the Travella mobile app.\n- Handled the hosting and management of the PostgreSQL database connected with the Travella server.\n- Conjured my frontend skills to make contributions in terms of UI and UX.",
+				"website": "https://travella.io"
+			},
+			{
+				"company": "Veehue Labs, NG",
+				"endDate": "2021-03-23",
+				"id": "f5c5dcfe-2a60-4169-a2f1-b305355518ea",
+				"position": "Lead Software Developer",
+				"startDate": "2020-08-01",
+				"summary": "- Established Veehue Labs as a software engineering startup geared towards building software solutions for others.\n- Managed up to 3 development projects at a given time while under pressure\n- Recommended and consulted with clients on the most appropriate software design for their business.\n- Oversaw the development team and delegated projects to other developers on the team.",
+				"website": ""
+			},
+			{
+				"company": "Fiverr, Tel Aviv",
+				"endDate": "2020-12-01",
+				"id": "dd935088-6fe7-4a4b-8ff5-7417c32d2add",
+				"position": "E-commerce Developer",
+				"startDate": "2017-11-01",
+				"summary": "- Handled the creation of e-commerce stores for businesses using platforms like Shopify and WordPress.\n- Managed different projects at a time without compromising on the perfection of any.\n- Made custom changes by modifying the source code of both Shopify and WordPress to suit clients' requirements.\n- Ensured that each business stands out great by creating a store design that rhymes with each business' identity.",
+				"website": "https://fiverr.com/samperfect",
+				"isVisible": true
+			}
+		],
+		"visible": true
+	}
+}
