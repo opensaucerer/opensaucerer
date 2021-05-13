@@ -571,11 +571,26 @@
           <div class="portfolio-wrap">
             <img src="assets/img/Screenshot (19).png" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h4>StoriShare</h4>
+              <h4>StoriShare - Story Sharing App</h4>
               <p>Web App</p>
               <div class="portfolio-links">
                 <a target="_blank" href="https://storishare.herokuapp.com/"  title="App 1"><i class="bx bx-link"></i></a>
                 <a href="storishare.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-plus"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-web filter-api">
+          <div class="portfolio-wrap">
+            <img src="assets/img/Screenshot (40).png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Abbrefy - Powerful URL Shortener</h4>
+              <p>Web App || API</p>
+              <div class="portfolio-links">
+                <a target="_blank" href="https://abbrefy.herokuapp.com/"  title="App 1"><i class="bx bx-link"></i></a>
+                <a href="abbrefy.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-plus"></i></a>
               </div>
             </div>
           </div>
@@ -590,6 +605,20 @@
               <div class="portfolio-links">
                 <a target="_blank" href="https://pen-tester.herokuapp.com/"  title="App 1"><i class="bx bx-link"></i></a>
                 <a href="scanner.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-plus"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-front">
+          <div class="portfolio-wrap">
+            <img src="assets/img/Screenshot (48).png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Samperfect - My Portfolio</h4>
+              <p>Fontend</p>
+              <div class="portfolio-links">
+                <a target="_blank" href="https://samperfect.netlify.app/"  title="App 1"><i class="bx bx-link"></i></a>
+                <a href="portfolio.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-plus"></i></a>
               </div>
             </div>
           </div>
@@ -678,7 +707,7 @@
         </div>
       </div>
 
-      <form action="/" method="post" role="form" class="php-email-form mt-4">
+      <form action="" method="post" role="form" class="php-email-form mt-4">
         <div class="form-row">
           <div class="col-md-6 form-group">
             <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:5" data-msg="Please enter your name" />
@@ -694,7 +723,7 @@
           <div class="validate"></div>
         </div>
         <div class="form-group">
-          <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please tell me more about your message" placeholder="Message"></textarea>
+          <textarea class="form-control" name="message" rows="5" data-rule="minlen: 15" data-msg="Please tell me more about your message" placeholder="Message"></textarea>
           <div class="validate"></div>
         </div>
         <div class="mb-3">
@@ -731,6 +760,7 @@
           submit = document.querySelector("#submit")
           inputs = document.querySelectorAll("input")
           message = document.querySelector("textarea")
+          var this_form = $(document);
           
           //submit = document.querySelector("#submit")
           submit.onclick = function(){
@@ -738,19 +768,14 @@
             email = inputs[1].value
             subject = inputs[2].value
             user_message = message.value
-            //alert("you just cliked that button")
-            for (let i = 0; i < inputs.length; i++){
-                if(inputs[i].value.length == 0 || message.value.length < 15){
-               break
-              }else{
-               send(name, email, subject, user_message)
-               break
-              }
-            }
-            
+            console.log(name)
+            console.log(email)
+            console.log(subject)
+            console.log(user_message)
+            send(name, email, subject, user_message)
           }
           async function send(name, email, subject, message){
-             var response = await fetch(" https://samperfect.herokuapp.com/api/v1/submit", {
+             var response = await fetch("http://localhost:8000/api/v1/submit/", {
                 method: "POST",
                 body: JSON.stringify({
                   name: name,
@@ -759,13 +784,12 @@
                   message: message
                 }),  
                 headers: {
-                  'Content-Type': 'application/json',
+                'Content-Type': 'application/json',
                 },
               })
             //getting the response data
              var data = await response.json()
              if (response.status == 200){
-               var this_form = $(document);
                 this_form.find('.loading').slideUp();
                 this_form.find('.sent-message').slideDown().html(data.message)
                submit.style.display = "none"
