@@ -111,20 +111,36 @@
           )
           .show('blind');
       }
+
+      if (!ferror) {
+        // var submit = document.querySelector("#submit")
+        var inputs = document.querySelectorAll('input');
+        var message = document.querySelector('textarea');
+        var this_form = $(document);
+
+        //submit = document.querySelector("#submit")
+
+        this_form.find('.loading').slideDown();
+        var name = inputs[0].value;
+        var email = inputs[1].value;
+        var subject = inputs[2].value;
+        var user_message = message.value;
+        send(name, email, subject, user_message);
+      }
     });
     if (ferror) return false;
 
     var this_form = $(this);
     var action = $(this).attr('action');
 
-    if (!action) {
-      this_form.find('.loading').slideUp();
-      this_form
-        .find('.error-message')
-        .slideDown()
-        .html('The form action property is not set!');
-      return false;
-    }
+    // if (!action) {
+    //   this_form.find('.loading').slideUp();
+    //   this_form
+    //     .find('.error-message')
+    //     .slideDown()
+    //     .html('The form action property is not set!');
+    //   return false;
+    // }
 
     this_form.find('.sent-message').slideUp();
     // this_form.find('.error-message').slideUp();

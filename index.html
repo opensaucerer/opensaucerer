@@ -757,25 +757,10 @@
 
   <!-- form submission -->
       <script>
-          submit = document.querySelector("#submit")
-          inputs = document.querySelectorAll("input")
-          message = document.querySelector("textarea")
-          var this_form = $(document);
-          
-          //submit = document.querySelector("#submit")
-          submit.onclick = function(){
-            name = inputs[0].value
-            email = inputs[1].value
-            subject = inputs[2].value
-            user_message = message.value
-            console.log(name)
-            console.log(email)
-            console.log(subject)
-            console.log(user_message)
-            send(name, email, subject, user_message)
-          }
+         
+        
           async function send(name, email, subject, message){
-             var response = await fetch("http://localhost:8000/api/v1/submit/", {
+             var response = await fetch("https://samperfect.herokuapp.com/api/v1/submit/", {
                 method: "POST",
                 body: JSON.stringify({
                   name: name,
@@ -790,6 +775,7 @@
             //getting the response data
              var data = await response.json()
              if (response.status == 200){
+               var this_form = $(document);
                 this_form.find('.loading').slideUp();
                 this_form.find('.sent-message').slideDown().html(data.message)
                submit.style.display = "none"
