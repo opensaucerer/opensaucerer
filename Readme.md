@@ -1,6 +1,14 @@
 Hey there,
  
-Welcome to the lair of an open saucerer. Be sure to watchout for potions made of Golang, Python, JavaScript, Typescript, NodeJs, and some little bit of frontend technologies.
+Welcome to the lair of an herbalist 🌿. Do watchout for potions made of Golang, Python, JavaScript, Typescript, NodeJs, and cloud technologies.
 
-You can [view his portfolio here](https://samperfect.me/).
-You can [check out his resume here](https://abbrefy.xyz/resume).
+- To find me on almost any platform, just search the handle **@opensaucerer**
+- I'm really keen about software development and building cool stuff people can use in their everyday life 
+- I prioritze creating free tools and software and always advocate for more open source development
+- I'm currently experimenting with a [growing list of projects you can find here](https://abbrefy.xyz/projects)
+- I love trying out new languages and my present is *Rust*
+- I'm open to chatting and talking *all day* about anything...you just hit me up.
+- Lastly, I'm available to work on cool projects across centralized and decentralized spaces.
+
+
+You can [view my portfolio here](https://opensaucerer.com) or [check out my resume here](https://abbrefy.xyz/resume).
