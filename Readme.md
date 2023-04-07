@@ -11,4 +11,4 @@ Welcome to the lair of an herbalist 🌿. Do watchout for potions made of Golang
 - Lastly, I'm available to work on cool projects across centralized and decentralized spaces.
 
 
-You can [view my portfolio here](https://opensaucerer.com) or [check out my resume here](https://abbrefy.xyz/resume).
+You can [check out my resume here](https://abbrefy.xyz/resume).
