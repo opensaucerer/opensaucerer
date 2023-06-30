@@ -1,14 +1,11 @@
-Hey there,
+I'm always _busy doing juju 🍀_
  
-Welcome to the my h-api place 🍀. Do watchout for potions made of Golang, Python, JavaScript, Typescript, NodeJs, and cloud technologies.
+Nevertheless, my shrine is all-encompassing. So come, let's do juju together.
 
-- To find me on almost any platform, just search the handle **@opensaucerer**
-- I'm really keen about software development and building cool stuff people can use in their everyday life 
-- I prioritze creating free tools and software and always advocate for more open source development
+- To find me, search the handle **@opensaucerer**
+- I create free tools people can use in their everyday life and always advocate for more open-source development
 - I'm currently experimenting with a [growing list of projects you can find here](https://abbrefy.xyz/projects)
-- I love trying out new languages and my present is a dabble between *Rust* and *Julia*
-- I'm open to chatting and talking *all day* about anything positive...you just hit me up.
-- Lastly, I'm seldomly available to work on cool projects across centralized and decentralized spaces.
-
+- I trying out *Rust* and *Julia*
+- I'm open to talking about anything and everything
 
 You can [check out my resume here](https://abbrefy.xyz/resumeng).
