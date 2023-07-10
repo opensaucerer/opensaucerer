@@ -1,11 +1,12 @@
-I'm always _busy doing juju 🍀_
+_busy doing juju 🍀_
  
-Nevertheless, my shrine is all-encompassing. So come, let's do juju together.
+ my shrine is all-encompassing; so come, let's do juju together!
 
-- To find me, search the handle **@opensaucerer**
-- I create free tools people can use in their everyday life and always advocate for more open-source development
-- I'm currently experimenting with a [growing list of projects you can find here](https://abbrefy.xyz/projects)
-- I trying out *Rust* and *Julia*
-- I'm open to talking about anything and everything
+- to find me anywhere, just search for **opensaucerer**
+- i create open tools people can use in their everyday life
+- i try to advocate for more open-source development
+- i'm currently experimenting with [these exciting ideas](https://abbrefy.xyz/projects)
+- i'm probably giving *Rust* and *Julia* a run for my money
+- i'm open to talking about anything and everything
 
-You can [check out my resume here](https://abbrefy.xyz/resumeng).
+[my résumé resides here](https://abbrefy.xyz/resumeng)
