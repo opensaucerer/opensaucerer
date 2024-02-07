@@ -1,4 +1,4 @@
-_busy doing juju 🍀_
+_1 Thessalonians 4:11-12  —  🍀 busy doing juju?_
  
  my shrine is all-encompassing; so come, let's do juju together!
 
