@@ -10,4 +10,4 @@ _1 Thessalonians 4:11-12  —  🍀 busy doing juju?_
 - i am probably giving *Rust* and *Julia* a run for my money
 - i am open to talking about anything and everything
 
-[my résumé resides here](https://rxresu.me/lovedayperfection1/perfection-senior)
+[my résumé resides here](https://rxresu.me/opensaucerer/perfection-senior)
