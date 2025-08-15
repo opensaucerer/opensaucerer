@@ -6,7 +6,7 @@ _1 Thessalonians 4:11-12  —  🍀 busy doing juju?_
 - i am available anywhere under the username **_@opensaucerer_**
 - i am creating open tools people can use in their everyday life
 - i am advocating for more open-source development
-- i am sometimes experimenting with [these exciting ideas](https://opensaucery.notion.site/c7d3600eef174a7c9920dd3861f00b64?v=d7e667a2b63746f5a5ff65ce61876bcc&pvs=4)
+- i am sometimes experimenting with [these exciting ideas](https://opensaucery.notion.site/12b53a7745258131a2fbdee5916b8c63?v=12b53a774525810695d2000cb6501d76)
 - i am probably giving *Rust* and *Julia* a run for my money
 - i am open to talking about anything and everything
 
